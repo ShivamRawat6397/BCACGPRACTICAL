@@ -1,0 +1,520 @@
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <Query>select * 
+from "ANALYTICS"."SCHEMA1"."CUSTOMER"</Query>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">96615386-8bd8-474c-8f95-8471c9d4bdd0</Connection>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Snowflake ODBC — Username and password
+Query=select * 
+from "ANALYTICS"....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="C_CUSTKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="FixedDecimal" />
+            <Field name="C_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_ADDRESS" size="40" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_NATIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="FixedDecimal" />
+            <Field name="C_PHONE" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_ACCTBAL" scale="2" size="14" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="FixedDecimal" />
+            <Field name="C_MKTSEGMENT" size="10" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_COMMENT" size="117" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <Query>select * 
+from "ANALYTICS"."SCHEMA1"."ORDERS"</Query>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">96615386-8bd8-474c-8f95-8471c9d4bdd0</Connection>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Snowflake ODBC — Username and password
+Query=select * 
+from "ANALYTICS"....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="O_ORDERKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_CUSTKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_ORDERSTATUS" size="1" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+            <Field name="O_TOTALPRICE" scale="2" size="14" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_ORDERDATE" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="Date" />
+            <Field name="O_ORDERPRIORITY" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+            <Field name="O_CLERK" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+            <Field name="O_SHIPPRIORITY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_COMMENT" size="79" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <Query>select * 
+from "ANALYTICS"."SCHEMA1"."SUPPLIER"</Query>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">96615386-8bd8-474c-8f95-8471c9d4bdd0</Connection>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Snowflake ODBC — Username and password
+Query=select * 
+from "ANALYTICS"....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="S_SUPPKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="FixedDecimal" />
+            <Field name="S_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="S_ADDRESS" size="40" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="S_NATIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="FixedDecimal" />
+            <Field name="S_PHONE" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="S_ACCTBAL" scale="2" size="14" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="FixedDecimal" />
+            <Field name="S_COMMENT" size="101" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="210" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="C_CUSTKEY" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="O_CUSTKEY" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="C_CUSTKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="FixedDecimal" />
+            <Field name="C_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_ADDRESS" size="40" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_NATIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="FixedDecimal" />
+            <Field name="C_PHONE" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_ACCTBAL" scale="2" size="14" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="FixedDecimal" />
+            <Field name="C_MKTSEGMENT" size="10" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_COMMENT" size="117" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="C_CUSTKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="FixedDecimal" />
+            <Field name="C_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_ADDRESS" size="40" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_NATIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="FixedDecimal" />
+            <Field name="C_PHONE" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_ACCTBAL" scale="2" size="14" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="FixedDecimal" />
+            <Field name="C_MKTSEGMENT" size="10" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_COMMENT" size="117" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="O_ORDERKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_CUSTKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_ORDERSTATUS" size="1" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+            <Field name="O_TOTALPRICE" scale="2" size="14" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_ORDERDATE" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="Date" />
+            <Field name="O_ORDERPRIORITY" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+            <Field name="O_CLERK" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+            <Field name="O_SHIPPRIORITY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_COMMENT" size="79" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="O_ORDERKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_CUSTKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_ORDERSTATUS" size="1" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+            <Field name="O_TOTALPRICE" scale="2" size="14" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_ORDERDATE" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="Date" />
+            <Field name="O_ORDERPRIORITY" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+            <Field name="O_CLERK" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+            <Field name="O_SHIPPRIORITY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_COMMENT" size="79" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="294" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="O_CUSTKEY" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="S_SUPPKEY" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="C_CUSTKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="FixedDecimal" />
+            <Field name="C_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_ADDRESS" size="40" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_NATIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="FixedDecimal" />
+            <Field name="C_PHONE" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_ACCTBAL" scale="2" size="14" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="FixedDecimal" />
+            <Field name="C_MKTSEGMENT" size="10" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_COMMENT" size="117" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="O_ORDERKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_CUSTKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_ORDERSTATUS" size="1" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+            <Field name="O_TOTALPRICE" scale="2" size="14" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_ORDERDATE" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="Date" />
+            <Field name="O_ORDERPRIORITY" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+            <Field name="O_CLERK" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+            <Field name="O_SHIPPRIORITY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_COMMENT" size="79" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="C_CUSTKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="FixedDecimal" />
+            <Field name="C_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_ADDRESS" size="40" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_NATIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="FixedDecimal" />
+            <Field name="C_PHONE" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_ACCTBAL" scale="2" size="14" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="FixedDecimal" />
+            <Field name="C_MKTSEGMENT" size="10" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="C_COMMENT" size="117" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;CUSTOMER&quot;" type="V_WString" />
+            <Field name="O_ORDERKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_CUSTKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_ORDERSTATUS" size="1" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+            <Field name="O_TOTALPRICE" scale="2" size="14" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_ORDERDATE" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="Date" />
+            <Field name="O_ORDERPRIORITY" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+            <Field name="O_CLERK" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+            <Field name="O_SHIPPRIORITY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="FixedDecimal" />
+            <Field name="O_COMMENT" size="79" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;ORDERS&quot;" type="V_WString" />
+            <Field name="S_SUPPKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="FixedDecimal" />
+            <Field name="S_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="S_ADDRESS" size="40" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="S_NATIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="FixedDecimal" />
+            <Field name="S_PHONE" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="S_ACCTBAL" scale="2" size="14" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="FixedDecimal" />
+            <Field name="S_COMMENT" size="101" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="S_SUPPKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="FixedDecimal" />
+            <Field name="S_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="S_ADDRESS" size="40" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="S_NATIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="FixedDecimal" />
+            <Field name="S_PHONE" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="S_ACCTBAL" scale="2" size="14" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="FixedDecimal" />
+            <Field name="S_COMMENT" size="101" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="414" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="S_NAME" action="GroupBy" rename="S_NAME" />
+            <SummarizeField field="O_ORDERPRIORITY" action="GroupBy" rename="O_ORDERPRIORITY" />
+            <SummarizeField field="O_TOTALPRICE" action="Sum" rename="Sum_O_TOTALPRICE" />
+            <SummarizeField field="O_ORDERKEY" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="S_NAME" size="25" source="Summarize: GroupBy - S_NAME" type="V_WString" />
+            <Field name="O_ORDERPRIORITY" size="15" source="Summarize: GroupBy - O_ORDERPRIORITY" type="V_WString" />
+            <Field name="Sum_O_TOTALPRICE" scale="2" size="14" source="Summarize: Sum - O_TOTALPRICE" type="FixedDecimal" />
+            <Field name="Count" source="Summarize: Count - S_NAME" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="534" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Sum_O_TOTALPRICE]/[Count]" field="AverageOrderValue" size="8" type="Double" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[AverageOrderValue = [Sum_O_TOTALPRICE]/[Count]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="S_NAME" size="25" source="Summarize: GroupBy - S_NAME" type="V_WString" />
+            <Field name="O_ORDERPRIORITY" size="15" source="Summarize: GroupBy - O_ORDERPRIORITY" type="V_WString" />
+            <Field name="Sum_O_TOTALPRICE" scale="2" size="14" source="Summarize: Sum - O_TOTALPRICE" type="FixedDecimal" />
+            <Field name="Count" source="Summarize: Count - S_NAME" type="Int64" />
+            <Field name="AverageOrderValue" source="Formula: [Sum_O_TOTALPRICE]/[Count]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="666" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;</Operator>
+            <Field>AverageOrderValue</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-08-14 20:59:34</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>5000</Operand>
+              <StartDate>2024-08-14 20:59:34</StartDate>
+              <EndDate>2024-08-14 20:59:34</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[AverageOrderValue] &gt; 5000</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="S_NAME" size="25" source="Summarize: GroupBy - S_NAME" type="V_WString" />
+            <Field name="O_ORDERPRIORITY" size="15" source="Summarize: GroupBy - O_ORDERPRIORITY" type="V_WString" />
+            <Field name="Sum_O_TOTALPRICE" scale="2" size="14" source="Summarize: Sum - O_TOTALPRICE" type="FixedDecimal" />
+            <Field name="Count" source="Summarize: Count - S_NAME" type="Int64" />
+            <Field name="AverageOrderValue" source="Formula: [Sum_O_TOTALPRICE]/[Count]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="S_NAME" size="25" source="Summarize: GroupBy - S_NAME" type="V_WString" />
+            <Field name="O_ORDERPRIORITY" size="15" source="Summarize: GroupBy - O_ORDERPRIORITY" type="V_WString" />
+            <Field name="Sum_O_TOTALPRICE" scale="2" size="14" source="Summarize: Sum - O_TOTALPRICE" type="FixedDecimal" />
+            <Field name="Count" source="Summarize: Count - S_NAME" type="Int64" />
+            <Field name="AverageOrderValue" source="Formula: [Sum_O_TOTALPRICE]/[Count]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="798" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\aasth\AppData\Local\Temp\Alteryx\Engine_19980_a203518caaa74250adb792f41f0a69f5_\Engine_19980_3b1c66831ed5274185431e86de9160d8~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Join" />
+      <Destination ToolID="5" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Join" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name />
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="e646554f-79af-413d-abe0-2ee9b134ef5a" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="e646554f-79af-413d-abe0-2ee9b134ef5a" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,508 @@
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <Query>select * 
+from "ANALYTICS"."SCHEMA1"."SUPPLIER"</Query>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">96615386-8bd8-474c-8f95-8471c9d4bdd0</Connection>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Snowflake ODBC — Username and password
+Query=select * 
+from "ANALYTICS"....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="S_SUPPKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="FixedDecimal" />
+            <Field name="S_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="S_ADDRESS" size="40" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="S_NATIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="FixedDecimal" />
+            <Field name="S_PHONE" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="S_ACCTBAL" scale="2" size="14" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="FixedDecimal" />
+            <Field name="S_COMMENT" size="101" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <Query>select * 
+from "ANALYTICS"."SCHEMA1"."REGION"</Query>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">96615386-8bd8-474c-8f95-8471c9d4bdd0</Connection>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Snowflake ODBC — Username and password
+Query=select * 
+from "ANALYTICS"....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="R_REGIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;REGION&quot;" type="FixedDecimal" />
+            <Field name="R_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;REGION&quot;" type="V_WString" />
+            <Field name="R_COMMENT" size="152" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;REGION&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <Query>select * 
+from "ANALYTICS"."SCHEMA1"."NATION"</Query>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">96615386-8bd8-474c-8f95-8471c9d4bdd0</Connection>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Snowflake ODBC — Username and password
+Query=select * 
+from "ANALYTICS"....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="N_NATIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="FixedDecimal" />
+            <Field name="N_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="V_WString" />
+            <Field name="N_REGIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="FixedDecimal" />
+            <Field name="N_COMMENT" size="152" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="270" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="N_NATIONKEY" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="R_REGIONKEY" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="N_NATIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="FixedDecimal" />
+            <Field name="N_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="V_WString" />
+            <Field name="N_REGIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="FixedDecimal" />
+            <Field name="N_COMMENT" size="152" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="N_NATIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="FixedDecimal" />
+            <Field name="N_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="V_WString" />
+            <Field name="N_REGIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="FixedDecimal" />
+            <Field name="N_COMMENT" size="152" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="V_WString" />
+            <Field name="R_REGIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;REGION&quot;" type="FixedDecimal" />
+            <Field name="R_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;REGION&quot;" type="V_WString" />
+            <Field name="R_COMMENT" size="152" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;REGION&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="R_REGIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;REGION&quot;" type="FixedDecimal" />
+            <Field name="R_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;REGION&quot;" type="V_WString" />
+            <Field name="R_COMMENT" size="152" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;REGION&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="402" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="S_NATIONKEY" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="N_NATIONKEY" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="S_SUPPKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="FixedDecimal" />
+            <Field name="S_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="S_ADDRESS" size="40" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="S_NATIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="FixedDecimal" />
+            <Field name="S_PHONE" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="S_ACCTBAL" scale="2" size="14" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="FixedDecimal" />
+            <Field name="S_COMMENT" size="101" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="S_SUPPKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="FixedDecimal" />
+            <Field name="S_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="S_ADDRESS" size="40" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="S_NATIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="FixedDecimal" />
+            <Field name="S_PHONE" size="15" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="S_ACCTBAL" scale="2" size="14" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="FixedDecimal" />
+            <Field name="S_COMMENT" size="101" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;SUPPLIER&quot;" type="V_WString" />
+            <Field name="N_NATIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="FixedDecimal" />
+            <Field name="N_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="V_WString" />
+            <Field name="N_REGIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="FixedDecimal" />
+            <Field name="N_COMMENT" size="152" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="V_WString" />
+            <Field name="R_REGIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;REGION&quot;" type="FixedDecimal" />
+            <Field name="R_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;REGION&quot;" type="V_WString" />
+            <Field name="R_COMMENT" size="152" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;REGION&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="N_NATIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="FixedDecimal" />
+            <Field name="N_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="V_WString" />
+            <Field name="N_REGIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="FixedDecimal" />
+            <Field name="N_COMMENT" size="152" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;NATION&quot;" type="V_WString" />
+            <Field name="R_REGIONKEY" scale="0" size="39" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;REGION&quot;" type="FixedDecimal" />
+            <Field name="R_NAME" size="25" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;REGION&quot;" type="V_WString" />
+            <Field name="R_COMMENT" size="152" source="File: select * &#xA;from &quot;ANALYTICS&quot;.&quot;SCHEMA1&quot;.&quot;REGION&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="534" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="S_NAME" action="GroupBy" rename="S_NAME" />
+            <SummarizeField field="R_NAME" action="GroupBy" rename="R_NAME" />
+            <SummarizeField field="S_ACCTBAL" action="Sum" rename="Sum_S_ACCTBAL" />
+            <SummarizeField field="S_SUPPKEY" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="S_NAME" size="25" source="Summarize: GroupBy - S_NAME" type="V_WString" />
+            <Field name="R_NAME" size="25" source="Summarize: GroupBy - R_NAME" type="V_WString" />
+            <Field name="Sum_S_ACCTBAL" scale="2" size="14" source="Summarize: Sum - S_ACCTBAL" type="FixedDecimal" />
+            <Field name="Count" source="Summarize: Count - S_NAME" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="666" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;</Operator>
+            <Field>Sum_S_ACCTBAL</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-08-14 19:56:32</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>6000</Operand>
+              <StartDate>2024-08-14 19:56:32</StartDate>
+              <EndDate>2024-08-14 19:56:32</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Sum_S_ACCTBAL] &gt; 6000</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="S_NAME" size="25" source="Summarize: GroupBy - S_NAME" type="V_WString" />
+            <Field name="R_NAME" size="25" source="Summarize: GroupBy - R_NAME" type="V_WString" />
+            <Field name="Sum_S_ACCTBAL" scale="2" size="14" source="Summarize: Sum - S_ACCTBAL" type="FixedDecimal" />
+            <Field name="Count" source="Summarize: Count - S_NAME" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="S_NAME" size="25" source="Summarize: GroupBy - S_NAME" type="V_WString" />
+            <Field name="R_NAME" size="25" source="Summarize: GroupBy - R_NAME" type="V_WString" />
+            <Field name="Sum_S_ACCTBAL" scale="2" size="14" source="Summarize: Sum - S_ACCTBAL" type="FixedDecimal" />
+            <Field name="Count" source="Summarize: Count - S_NAME" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="822" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\aasth\AppData\Local\Temp\Alteryx\Engine_8992_8e5c9abcd2bf49e1a5f391f9f8263da1_\Engine_8992_1f963c2219e4ce47a3c75fa221924e40~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+        <Position x="618" y="330" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Text Box (11)</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Join" />
+      <Destination ToolID="5" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Join" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="True" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (11)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name />
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="52f63219-b812-4c0c-9879-197c429acba8" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="52f63219-b812-4c0c-9879-197c429acba8" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (10)</Name>
+          <ToolId value="10" />
+          <Questions>
+            <Question>
+              <Type>TextBox</Type>
+              <Description>This workflow provides insights into how suppliers perform across different regions, helping businesses understand supplier distribution and financial performance by region.</Description>
+              <Name>Text Box (11)</Name>
+              <ToolId value="11" />
+              <Default />
+              <Password value="False" />
+              <Multiline value="True" />
+              <Hidden value="False" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Wizard</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="8" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
